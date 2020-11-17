@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author 17616
  */
 @SpringBootApplication
-@MapperScan(basePackages = "com.zy.sys.mapper")
+@MapperScan(basePackages = "com.zy.*.mapper")
 public class StockErpApplication {
 
     public static void main(String[] args) {

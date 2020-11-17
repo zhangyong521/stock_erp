@@ -26,8 +26,8 @@
     </div>
     <div class="layui-form-item input-item" id="imgCode">
         <label for="code">验证码</label>
-        <input type="text" placeholder="请输入验证码" autocomplete="off" id="code" class="layui-input">
-        <img src="/resources/images/code.jpg">
+        <input type="text" placeholder="请输入验证码" autocomplete="off" id="code" name="code" class="layui-input">
+        <img src="/login/getCode" onclick="this.src='/login/getCode?'+new Date()">
     </div>
     <div class="layui-form-item">
         <button class="layui-btn layui-block" lay-filter="login" lay-submit>登录</button>
@@ -46,12 +46,6 @@
         var form = layui.form,
             layer = parent.layer === undefined ? layui.layer : top.layer
         $ = layui.jquery;
-
-        /*   $(".loginBody .seraph").click(function(){
-              layer.msg("这只是做个样式，至于功能，你见过哪个后台能这样登录的？还是老老实实的找管理员去注册吧",{
-                  time:5000
-              });
-          }) */
 
         //登录按钮
         form.on("submit(login)",function(data){

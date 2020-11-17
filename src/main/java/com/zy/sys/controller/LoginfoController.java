@@ -3,8 +3,8 @@ package com.zy.sys.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.zy.sys.commont.DataGridView;
-import com.zy.sys.commont.ResultObj;
+import com.zy.commont.DataGridView;
+import com.zy.commont.ResultObj;
 import com.zy.sys.domain.Loginfo;
 import com.zy.sys.service.LoginfoService;
 import com.zy.sys.vo.LoginfoVo;

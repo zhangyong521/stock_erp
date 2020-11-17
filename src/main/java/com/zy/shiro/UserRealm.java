@@ -1,7 +1,7 @@
 package com.zy.shiro;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.zy.sys.commont.Constast;
+import com.zy.commont.Constast;
 import com.zy.sys.domain.Permission;
 import com.zy.sys.domain.User;
 import com.zy.sys.service.PermissionService;

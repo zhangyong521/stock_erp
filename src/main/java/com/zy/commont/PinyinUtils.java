@@ -1,4 +1,4 @@
-package com.zy.sys.commont;
+package com.zy.commont;
 
 import net.sourceforge.pinyin4j.PinyinHelper;
 import net.sourceforge.pinyin4j.format.HanyuPinyinCaseType;

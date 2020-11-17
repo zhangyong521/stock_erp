@@ -1,4 +1,4 @@
-package com.zy.sys.commont;
+package com.zy.commont;
 
 /**
  * @Author: 张勇

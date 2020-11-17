@@ -1,4 +1,4 @@
-package com.zy.sys.commont;
+package com.zy.commont;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;

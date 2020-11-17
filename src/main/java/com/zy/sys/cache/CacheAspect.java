@@ -3,6 +3,7 @@ package com.zy.sys.cache;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.zy.cache.CachePool;
 import com.zy.sys.domain.User;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -24,7 +25,7 @@ public class CacheAspect {
 	/**
 	 *  声明一个缓存容器
 	 */
-	private Map<String, Object> CACHE_CONTAINER = new HashMap<>();
+	private Map<String, Object> CACHE_CONTAINER = CachePool.CACHE_CONTAINER;
 
 	/**
 	 * 声明切面表达式
